@@ -1,1 +1,137 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514e;
+  font-family: 'merriweather', serif;
+  background-color: #FFC0CB;
+}
 
+h1 {
+  color: #FFFAF0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #FFFAF0;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #FFFAF0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  margin: 100px auto;
+  border-bottom: none;
+  width: 4%;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFFAF0;
+}
+
+p {
+  line-height: 2;
+  font-size: 20px;
+}
+
+.top {
+  background-color: plum;
+  position: relative;
+  padding-top: 100px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.A {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.coll-img {
+  width: 25%;
+  margin-right: 30px;
+  float: left;
+}
+
+.music-img {
+  width: 25%;
+  margin-left: 30px;
+  float: right;
+}
+
+.pro {
+  width: 25%;
+  image-resolution: snap;
+}
+
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #a6827e;
+  background: linear-gradient(to bottom, plum 5%, plum 100%);
+  background-color: plum;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'merriweather', serif;
+  font-size: 18px;
+  padding: 12px 29px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #4d3534;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #C71585 5%, #C71585 100%);
+  background-color: #C71585;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.bottom {
+  background-color: plum;
+  padding: 50px 0 20px;
+  margin-top: 50px;
+}
+
+.copyright {
+  color: #40514e;
+  font-size: 0.75rem;
+}
